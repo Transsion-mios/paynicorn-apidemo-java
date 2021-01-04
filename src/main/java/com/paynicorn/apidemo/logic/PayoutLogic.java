@@ -23,8 +23,8 @@ import java.util.UUID;
  * @since 1.8.0
  */
 public class PayoutLogic {
-    private static final String appKey = "7yc81Y24N33777RoT3vC";
-    private static final String md5Key = "fc7edb2d47db4c1e95c750db3b2e25ae";
+    private static final String appKey = "PUT_YOUR_APP_KEY_HERE";
+    private static final String md5Key = "PUT_YOUR_MERCHANT_MD5_SECRET_KEY_HERE";
     private static final String url = "https://api.paynicorn.com/trade/v3/transaction/payout";
 
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
